@@ -6,103 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>300</width>
+    <width>350</width>
     <height>400</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Frame</string>
   </property>
-  <widget class="QGraphicsView" name="left_up">
-   <property name="geometry">
-    <rect>
-     <x>50</x>
-     <y>50</y>
-     <width>50</width>
-     <height>50</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QGraphicsView" name="center_up">
-   <property name="geometry">
-    <rect>
-     <x>100</x>
-     <y>50</y>
-     <width>50</width>
-     <height>50</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QGraphicsView" name="right_up">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>50</y>
-     <width>50</width>
-     <height>50</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QGraphicsView" name="left">
-   <property name="geometry">
-    <rect>
-     <x>50</x>
-     <y>100</y>
-     <width>50</width>
-     <height>50</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QGraphicsView" name="center">
-   <property name="geometry">
-    <rect>
-     <x>100</x>
-     <y>100</y>
-     <width>50</width>
-     <height>50</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QGraphicsView" name="right">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>100</y>
-     <width>50</width>
-     <height>50</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QGraphicsView" name="left_down">
-   <property name="geometry">
-    <rect>
-     <x>50</x>
-     <y>150</y>
-     <width>50</width>
-     <height>50</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QGraphicsView" name="center_down">
-   <property name="geometry">
-    <rect>
-     <x>100</x>
-     <y>150</y>
-     <width>50</width>
-     <height>50</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QGraphicsView" name="right_down">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>150</y>
-     <width>50</width>
-     <height>50</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QPushButton" name="l_u_u">
    <property name="geometry">
     <rect>
@@ -220,7 +130,7 @@
     <string>v</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="l_u_l_2">
+  <widget class="QPushButton" name="r_u_r">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -311,7 +221,7 @@
     <string>^</string>
    </property>
   </widget>
-  <widget class="QLabel" name="name_of_edge">
+  <widget class="QPushButton" name="restart">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -321,7 +231,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string>RESTART</string>
    </property>
   </widget>
  </widget>
